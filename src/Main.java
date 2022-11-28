@@ -28,11 +28,6 @@ int k=7;
        coincidences(arr,x);
 
     }
-    public static <T> T[] concat(T[] first, T[] second) {
-        T[] result = Arrays.copyOf(first, first.length + second.length);
-        System.arraycopy(second, 0, result, first.length, second.length);
-        return result;
-    }
     static int[] merge1(int[]  arrL, int [] arrR) {
         int[]arr=new int[arrR.length+arrL.length];
 
